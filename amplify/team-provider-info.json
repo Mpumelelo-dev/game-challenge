@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hacktictoc-dev-4b60e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::934628828013:role/amplify-hacktictoc-dev-4b60e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::934628828013:role/amplify-hacktictoc-dev-4b60e-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-hacktictoc-dev-4b60e-deployment",
+      "UnauthRoleName": "amplify-hacktictoc-dev-4b60e-unauthRole",
+      "StackName": "amplify-hacktictoc-dev-4b60e",
+      "StackId": "arn:aws:cloudformation:eu-west-1:934628828013:stack/amplify-hacktictoc-dev-4b60e/89afd4d0-c060-11ef-b78e-0a27c8f43d13",
+      "AmplifyAppId": "d186kf745h49wf"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

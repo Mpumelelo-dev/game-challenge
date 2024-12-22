@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hacktictoc-dev-4b60e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::934628828013:role/amplify-hacktictoc-dev-4b60e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::934628828013:role/amplify-hacktictoc-dev-4b60e-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-hacktictoc-dev-4b60e-deployment",
+      "UnauthRoleName": "amplify-hacktictoc-dev-4b60e-unauthRole",
+      "StackName": "amplify-hacktictoc-dev-4b60e",
+      "StackId": "arn:aws:cloudformation:eu-west-1:934628828013:stack/amplify-hacktictoc-dev-4b60e/89afd4d0-c060-11ef-b78e-0a27c8f43d13",
+      "AmplifyAppId": "d186kf745h49wf"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-hacktictoc-dev-4b60e-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2024-12-22T12:47:00.364Z",
+      "output": {
+        "CloudFrontSecureURL": "https://dx89uxkn67366.cloudfront.net",
+        "S3BucketSecureURL": "https://hacktictoc-20241222144052-hostingbucket-dev.s3.amazonaws.com",
+        "CloudFrontOriginAccessIdentity": "E262X7PNOPGY95",
+        "WebsiteURL": "http://hacktictoc-20241222144052-hostingbucket-dev.s3-website-eu-west-1.amazonaws.com",
+        "CloudFrontDistributionID": "EWT8LU4Y9IUOQ",
+        "Region": "eu-west-1",
+        "HostingBucketName": "hacktictoc-20241222144052-hostingbucket-dev",
+        "CloudFrontDomainName": "dx89uxkn67366.cloudfront.net"
+      },
+      "lastPushDirHash": "SLjhav2zIg9MC2zhcVaw6t4EO98="
+    }
+  }
+}
